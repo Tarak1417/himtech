@@ -1,0 +1,1191 @@
+body {
+    overflow-x: hidden;
+}
+
+.booknow-container {
+    background-image: linear-gradient( #6BB5B5,#008080);
+    padding-left: 100px;
+    padding-right: 100px;
+   
+    position: relative;
+}
+
+.buttonbelowbackgrouund {
+    background-image: linear-gradient(#008080, #6BB5B5);
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+    top: -2%;
+    right: -2%;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+}
+
+.bookbutton {
+    display: block;
+    width: 121px;
+    height: 43px;
+    background-color: #008080;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    z-index: 1;
+    margin-top: 20px;
+    
+    cursor: pointer;
+}
+
+.maintextcontent {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Spectral SC";
+}
+
+.secondcontend {
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: "Nunito";
+    line-height: 49.1px;
+    font-weight: 700;
+}
+
+.secondpara {
+    line-height: 21.82px;
+    color: #FFFFFF;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.spanitem {
+    color: rgb(118, 118, 232);
+    cursor: pointer;
+}
+
+.darkground {
+    background-image: linear-gradient(#001A1A, #008080);
+    width: 100vw;
+    height: 152px;
+    margin-top: 20px;
+    z-index: 0;
+    margin-left: -100px;
+}
+
+.rightleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.rightleft div:first-child {
+    flex: 1;
+}
+
+.caponatoer {
+    display: block;
+    height: 637px;
+    max-width: 400px;
+    object-fit: contain;
+    z-index: 1;
+    position: relative;
+    margin-bottom: -300px;
+}
+.mobilecaponatoer{
+    display:none;
+}
+.mobilebookbutton{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .booknow-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        overflow-x: hidden;
+    }
+
+    .buttonbelowbackgrouund {
+       display : none;
+    }
+
+    .logo {
+        width: 200px;
+        height: 70px;
+    }
+
+    .bookbutton {
+        display: none;
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .mobilebookbutton{
+        width: 100px;
+      
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-left: 120px;
+        width: 121px;
+    height: 43px;
+    background-color: #008080;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+
+    }
+
+    .maintextcontent {
+        font-size: 28px;
+    }
+
+    .secondcontend {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 30px;
+    }
+
+    .secondpara {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .darkground {
+        display:none;
+    }
+
+    .rightleft {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+        
+    }
+
+    .mobilecaponatoer {
+        height: 300px;
+        max-width: 250px;
+        display: block;
+        margin-left: 100px;
+       
+      
+    }
+    .caponatoer{
+        display: none;
+    }
+}
+
+
+/* logosection */
+
+.whitebackground {
+    background-color: #FFFFFF;
+    width: 100vw;
+    margin-left: -100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: -160px;
+    align-items: center;
+}
+
+.discoverpage {
+    font-family: "Spectral SC";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60.88px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.backgroundthree {
+    background-color: #E6F2F2;
+    height: 458px;
+    width: 1177px;
+    display: flex;
+}
+
+.womenimage {
+    height: 458px;
+    width: 443px;
+}
+
+.sidecont {
+    padding-left: 20px;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.82px;
+    color: #3C3C3C;
+    padding-top: 50px;
+}
+
+.healthimages {
+    display: flex;
+    align-items: center;
+}
+
+.head {
+    padding-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 44px;
+    width: 44px;
+}
+
+.haeltheading {
+    font-family: "nunito";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21.82px;
+    margin-bottom: -10px;
+}
+
+.healthpara {
+    font-family: "nunito";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.82px;
+}
+
+.belowcontent {
+    font-family: "nunito";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.82px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.darkbelow {
+    background-color: #008080;
+    height: 94px;
+    width: 734px;
+    padding-top: 20px;
+    padding-bottom: -20px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .whitebackground {
+      
+       overflow-x: hidden;
+        padding-top: 50px;
+        align-items: center;
+    
+    }
+
+    .logos {
+        flex-direction: column;
+        padding-left: 100px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .discoverpage {
+        font-size: 20px;
+        line-height: 40px;
+        margin-left: 0;
+        
+        margin-top: 20px;
+      align-items:center ;
+    }
+
+    .backgroundthree {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+        margin-left: -20px;
+       
+      
+    }
+
+    .womenimage {
+        height: auto;
+        width: 100%;
+    
+    }
+
+    .sidecont {
+        padding-left: 10;
+        padding-top: 20px;
+    }
+
+    .healthimages {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .head {
+        padding-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .haeltheading {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .healthpara {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .belowcontent {
+        font-size: 12px;
+        line-height: 18px;
+        margin-left: 0;
+    }
+
+    .darkbelow {
+        width: 100%;
+        height: auto;
+        padding: 14px;
+    }
+}
+
+.capno {
+    height:auto;
+    width:500px;
+    position: relative;
+}
+
+.backgroundfour{
+    display: flex;
+    margin-top: 50px;
+}
+
+.liitems{
+    position: absolute;
+    right:4%;
+    margin-top: 50px;
+    
+}
+li{
+    list-style-type: none;
+   
+}
+.listitems{
+    background-color: 
+    #E6F2F2;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;  
+}
+.headingwhat{
+    font-family: "Spectral SC";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60.88px;
+  
+    margin-top: 30px;
+    color: 
+    #008080;
+}
+.componet{
+    font-family: "Nunito";
+    font-size: 16px;
+    line-height: 21.82px;
+    color: #3C3C3C;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .capno {
+        width: 100%; /* Full width on mobile */
+    }
+
+    .backgroundfour {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .liitems {
+        position: static; /* Reset position */
+        margin-top: 20px; /* Add some margin */
+        text-align: center; 
+    }
+
+    .headingwhat {
+        font-size: 30px; 
+        line-height: 45px; 
+        margin-top: 20px; 
+    }
+
+    .componet {
+        font-size: 14px; 
+        line-height: 20px; 
+        margin-top: 15px; 
+    }
+    .listitems {
+       margin-left: -30px;
+       font-size: 10px;
+       align-items: start;
+    }
+}
+
+/* Default styles for all screen sizes */
+.backgroundfive {
+  
+    height: auto;
+    width: 100%;
+    margin-left: -100px;
+    padding: 50px;
+}
+
+.side {
+    font-family: "Spectral SC";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.82px;
+    text-align: center;
+    margin-bottom: -30px;
+    margin-left: -400px;
+    margin-top: 0px;
+}
+
+.main {
+    font-family: "Spectral SC";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60.88px;
+    color: #008080;
+    text-align: center;
+}
+
+.realtime {
+    height: 221px;
+    width: 368px;
+    position: relative;
+}
+
+.realtimecontent {
+    position: inherit;
+    bottom: -10%;
+    left: auto;
+    height: 120px;
+    width: 350px;
+    border: none;
+    background-color: #E6F2F2;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    margin-left: -10px;
+}
+
+.realtimeheading {
+    font-family: "nunito";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.18px;
+    color: #008080;
+}
+
+.realtimepara {
+    font-family: "nunito";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    color: #3C3C3C;
+}
+
+.backgroundfivecontent {
+    display: flex;
+    gap: 150px;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .backgroundfive {
+        margin-left: -30px;
+        padding: 20px;
+    }
+
+    .side {
+        margin-left: 0;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .main {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .realtime {
+        height: auto;
+        width: 100%;
+    }
+
+    .realtimecontent {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .realtimeheading {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .realtimepara {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .backgroundfivecontent {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+/* Default styles for larger screens */
+.backgroundsix {
+    margin-top: 5px;
+    height: 500px;
+    margin-left: -100px;
+    background: 
+        linear-gradient(to right, #E6F2F2 50%, transparent 100%),
+        url('../../Assets/Capno\ software\ screen\ \(1\).png') right/cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.sixheading {
+    font-family: "Spectral SC";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60.88px;
+    margin-left: 100px;
+}
+
+.sixpara {
+    height: 168px;
+    width: 368px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    background-color: #008080;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.sixheaad {
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.82px;
+    color: white;
+    padding: 20px;
+    align-items: center;
+}
+
+.sixparaapa {
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    color: white;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.sixparamaincontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    column-gap: -20%;
+
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .backgroundsix {
+        height: auto; /* Adjust height to fit content */
+        margin-left: -50px; /* Remove negative margin */
+        background: 
+            linear-gradient(to bottom, #E6F2F2 50%, transparent 100%),
+            url('../../Assets/Capno\ software\ screen\ \(1\).png') center/cover; /* Adjust background for mobile */
+        flex-direction: column; /* Stack items vertically */
+        padding: 20px;
+        align-items: center; /* Add padding for better spacing */
+    }
+
+    .sixheading {
+        font-size: 30px; /* Reduce font size for mobile */
+        line-height: 40px; /* Adjust line height */
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center align text */
+    }
+
+    .sixpara {
+        width: 100%; /* Full width for mobile */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Add top margin for spacing */
+    }
+
+    .sixparamaincontainer {
+        grid-template-columns: 1fr; /* Single column layout for mobile */
+        gap: 20px; /* Adjust gap for better spacing */
+    }
+
+    .sixheaad, .sixparaapa {
+        text-align: center; /* Center align text */
+    }
+}
+
+/* Default styles for larger screens */
+.backgroundseven {
+    display: flex;
+    margin-top: 50px;
+}
+
+.gym {
+    height: 350px;
+    width: auto;
+    position: relative;
+}
+
+.gymhead {
+    font-family: "Spectral SC";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 60.88px;
+    margin-left: 100px;
+    color: #008080;
+}
+
+.gympara {
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    color: #3C3C3C;
+    margin-top: 20px;
+    margin-left: 100px;
+    white-space: wrap;
+}
+
+.gymcontent {
+    margin-top: 50px;
+}
+
+.gymcontentbox {
+    position: absolute;
+    right: 30%;
+    height: auto;
+    border-radius: 8px;
+    padding: 10px;
+    width: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    align-items: center;
+}
+
+.gymer {
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.82px;
+    color: #008080;
+    margin-top: 20px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .backgroundseven {
+        flex-direction: column; /* Stack items vertically */
+        margin-top: 20px; /* Reduce top margin */
+        align-items: center; /* Center align items */
+        margin-left: -20px;
+    }
+
+    .gym {
+        height: auto; /* Adjust height to fit content */
+        width: 100%; /* Full width for mobile */
+        position: static; /* Remove absolute positioning */
+    }
+
+    .gymhead {
+        font-size: 14px; /* Reduce font size for mobile */
+        line-height: 40px; /* Adjust line height */
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center align text */
+    }
+
+    .gympara {
+        font-size: 14px; /* Reduce font size for mobile */
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center align text */
+        padding: 0 20px; /* Add padding for better spacing */
+    }
+
+    .gymcontent {
+        margin-top: 20px; /* Reduce top margin */
+    }
+
+    .gymcontentbox {
+        position: static; /* Remove absolute positioning */
+        right: auto; /* Reset right positioning */
+        width: 90%; /* Full width with some padding */
+        margin: 20px auto; /* Center the box */
+        padding: 15px; /* Increase padding for better spacing */
+    }
+
+    .gymer {
+        font-size: 14px; /* Reduce font size for mobile */
+        text-align: center; /* Center align text */
+        margin-top: 10px; /* Adjust top margin */
+    }
+}
+.backgroundeight {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .eighthead {
+    font-family: "Spectral SC";
+    font-size: 24px;
+    font-weight: 700;
+    color: #008080;
+    margin-bottom: 30px;
+  }
+  
+  .eightcontent {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(400px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Spacing between grid items */
+  margin-left: -100px;
+
+  }
+  
+  .eightcontentone {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden; /* Ensures the image and content stay within the bounds */
+  }
+  
+  .wellness {
+    height: 350px;
+    width: 100%;
+    object-fit: cover; /* Ensures the image covers the area */
+    border-radius: 8px;
+  }
+  
+  .sightpara {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(0, 128, 128, 0.4); /* Semi-transparent teal */
+    backdrop-filter: blur(10px); /* Glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  }
+
+  @media (max-width: 768px) {
+    .sightpara{
+        margin-left: 50px;
+    }
+    
+  }
+  
+  .headeight {
+    font-family: "Spectral SC";
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff; /* White text */
+    margin-bottom: 10px;
+  }
+  
+  .paraeight {
+    font-family: "Nunito";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.82px;
+    color: #ffffff; /* White text */
+    white-space: wrap;
+  }
+  .keyfeatures {
+    display: flex;  
+    flex-direction: row;  /* Default: Row layout for larger screens */
+    
+    gap: -10px;  
+    flex-wrap: wrap;  /* Ensures wrapping on smaller screens */
+}
+
+
+
+/* Responsive Layout for Mobile Screens */
+@media (max-width: 768px) {
+    .keyfeatures {
+        flex-direction: column; /* Switch to column layout for mobile */
+        align-items: center; /* Centers items in column view */
+        margin-left: -30px;
+    }
+}
+
+.keyfeaturesone {
+    height: 160px;
+    width: 350px;
+    display: flex;
+    padding: 10px;
+}
+
+.real {
+    height: 70px;
+    width: 70px;
+    margin-bottom: -20px;
+}
+
+.realpara {
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    white-space: wrap;
+}
+
+.realheading {
+    font-family: "Spectral SC";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 60.88px;
+    color: #008080;
+}
+
+.mainclass {
+    font-family: "Nunito";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60.88px;
+    color: #008080;
+    text-align: center;
+}
+
+.ninecapo {
+    text-align: center;
+  }
+  
+  /* Default: Desktop View */
+  .keyfeatures-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: -200px;
+  }
+  
+  /* Feature card styling */
+  .feature-card {
+    width: 288px;
+    height: 350px;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image styling */
+  .feature-img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  
+  .feature-content {
+    padding: 10px;
+  }
+  
+  .feature-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .feature-description {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Mobile View (max-width: 768px) */
+  @media (max-width: 768px) {
+    .keyfeatures-container {
+      flex-direction: column; /* Stack elements in a column */
+      align-items: center; /* Center items */
+    }
+  
+    .feature-card {
+      width: 80%; /* Adjust width for better fit */
+      height: auto;
+      margin-left: 100px;
+      padding :20px;
+       /* Auto height for dynamic content */
+    }
+  
+    .feature-img {
+      height: auto;
+    }
+  }
+  
+  .frame{
+    height: 500px;
+    width:90%;
+    padding: 20px;
+    margin-left: -50px;
+  }
+  @media (max-width: 768px) {
+    .frame{
+        height: auto;
+        width: 100%;
+        padding: 10px;
+       padding-right: -20px;
+        
+    }
+  }
+
+  .faq-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .faq-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .faq-list {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    border: 1px solid teal;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  .faq-question {
+    background: white;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .faq-question:hover {
+    background: #f0f8ff;
+  }
+  
+  .faq-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-icon.open {
+    transform: rotate(180deg);
+  }
+  
+  .faq-answer {
+    padding: 15px;
+    background: #f9f9f9;
+    font-size: 14px;
+    border-top: 1px solid teal;
+  }
+
+  @media (max-width: 768px) {
+    .faq-container {
+     margin-left: -50px;
+    }
+}
+
+
+  .wait {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(#035c5c, #008080);
+    margin-left: -200px;
+    padding: 30px;
+  }
+  
+  .miniheaading {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+  
+  .maxheader {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: "Spectral SC";
+  }
+  
+  .dontpara {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 16px;
+    font-family: "Nunito";
+  }
+  
+  .ordernowbutton {
+    display: block;
+    padding: 20px;
+    background-color: white;
+    color: #035c5c;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    z-index: 1;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .backgroundten {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  /* Mobile Mode */
+  @media (max-width: 768px) {
+    .wait {
+      margin-left: 0; /* Remove negative margin for mobile */
+      padding: 20px;
+      margin-left: -50px; /* Adjust padding for mobile */
+    }
+  
+    .miniheaading {
+      font-size: 20px; /* Reduce font size for mobile */
+      text-align: center; /* Center align text */
+    }
+  
+    .maxheader {
+      font-size: 30px; /* Reduce font size for mobile */
+      text-align: center; /* Center align text */
+    }
+  
+    .dontpara {
+      font-size: 14px; /* Reduce font size for mobile */
+      text-align: center; /* Center align text */
+      padding: 0 20px; /* Add side padding for better readability */
+    }
+  
+    .ordernowbutton {
+      width: 100%; /* Full width for mobile */
+      padding: 15px; /* Adjust padding for mobile */
+      font-size: 14px; /* Reduce font size for mobile */
+    }
+  
+    .backgroundten {
+      padding-left: 20px; /* Reduce padding for mobile */
+      padding-right: 20px; /* Reduce padding for mobile */
+    }
+  }
+
+  .fottercontainer {
+    display: flex;
+    flex-direction: row; /* Default row for desktop */
+    justify-content: space-between;
+   
+    flex-wrap: wrap;
+    
+   /* Adjust as needed */
+  
+    gap: 60px;
+    margin-top: 60px;
+  }
+  
+  .logoimage {
+    height: 50px;
+    width: 150px;
+  }
+  
+  .nameandother,
+  .contact,
+  .socialmedia {
+    flex: 1; /* Equal space distribution */
+    min-width: 250px; /* Prevents shrinking on small screens */
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  /* 📱 Mobile View */
+  @media (max-width: 768px) {
+    .fottercontainer {
+      flex-direction: column; /* Column layout for mobile */
+      align-items: center;
+      text-align: center;
+      gap: 30px;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  
+    .icon {
+      width: 35px; /* Slightly smaller icons for mobile */
+      height: 35px;
+    }
+  }
+  
